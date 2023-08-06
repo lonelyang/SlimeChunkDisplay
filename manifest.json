@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "made by lonelyang",
+        "name": "§aSlime Chunk Display",
+        "uuid": "AD9879AE-93AC-F573-26C9-144995C3D186",
+        "version": [1, 0, 1],
+        "min_engine_version": [1, 14, 0]
+    },
+    "modules": [
+        {
+            "description": "made by lonelyang",
+            "type": "resources",
+            "uuid": "F2142B6E-5B9C-5798-6E21-B00115FD81B6",
+            "version": [1, 0, 1]
+        }
+    ]
+}

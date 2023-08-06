@@ -1,0 +1,63 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    
+    "entity_slime_chunk_blend:entity_alphablend": {
+      "+states": [
+        "Blending"
+      ],
+      "+states": [ "DisableCulling" ],
+      "+defines": [ "USE_OVERLAY","LONEL_SLIME_CHUNK" ],
+      "vertexFields": [
+        { "field": "Position" },
+        { "field": "Color" },
+        { "field": "Normal" },
+        { "field": "UV0" }
+      ],
+      "variants": [
+        {
+          "skinning": {
+            "+defines": [ "USE_SKINNING" ],
+            "vertexFields": [
+              { "field": "Position" },
+              { "field": "BoneId0" },
+              { "field": "Color" },
+              { "field": "Normal" },
+              { "field": "UV0" }
+            ]
+          }
+        }
+      ],
+      "msaaSupport": "Both"
+    },
+    "entity_slime_chunk_z1_0:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z1_X" ]},
+    "entity_slime_chunk_z2_0:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z2_X" ]},
+    "entity_slime_chunk_f1_0:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_F1_X" ]},
+    "entity_slime_chunk_f2_0:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_F2_X" ]},
+
+    "entity_slime_chunk_0_z1:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z1_Y" ]},
+    "entity_slime_chunk_0_z2:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z2_Y" ]},
+    "entity_slime_chunk_0_f1:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_F1_Y" ]},
+    "entity_slime_chunk_0_f2:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_F2_Y" ]},
+
+    "entity_slime_chunk_z1_z1:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z1_X","LONEL_SLIME_CHUNK_Z1_Y" ]},
+    "entity_slime_chunk_z1_z2:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z1_X","LONEL_SLIME_CHUNK_Z2_Y" ]},
+    "entity_slime_chunk_z1_f1:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z1_X","LONEL_SLIME_CHUNK_F1_Y" ]},
+    "entity_slime_chunk_z1_f2:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z1_X","LONEL_SLIME_CHUNK_F2_Y" ]},
+
+    "entity_slime_chunk_z2_z1:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z2_X","LONEL_SLIME_CHUNK_Z1_Y" ]},
+    "entity_slime_chunk_z2_z2:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z2_X","LONEL_SLIME_CHUNK_Z2_Y" ]},
+    "entity_slime_chunk_z2_f1:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z2_X","LONEL_SLIME_CHUNK_F1_Y" ]},
+    "entity_slime_chunk_z2_f2:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z2_X","LONEL_SLIME_CHUNK_F2_Y" ]},
+
+    "entity_slime_chunk_f1_z1:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_F1_X","LONEL_SLIME_CHUNK_Z1_Y" ]},
+    "entity_slime_chunk_f1_z2:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_F1_X","LONEL_SLIME_CHUNK_Z2_Y" ]},
+    "entity_slime_chunk_f1_f1:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_F1_X","LONEL_SLIME_CHUNK_F1_Y" ]},
+    "entity_slime_chunk_f1_f2:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_F1_X","LONEL_SLIME_CHUNK_F2_Y" ]},
+
+    "entity_slime_chunk_f2_z1:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_F2_X","LONEL_SLIME_CHUNK_Z1_Y" ]},
+    "entity_slime_chunk_f2_z2:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_F2_X","LONEL_SLIME_CHUNK_Z2_Y" ]},
+    "entity_slime_chunk_f2_f1:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_F2_X","LONEL_SLIME_CHUNK_F1_Y" ]},
+    "entity_slime_chunk_f2_f2:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_F2_X","LONEL_SLIME_CHUNK_F2_Y" ]}
+  }
+}

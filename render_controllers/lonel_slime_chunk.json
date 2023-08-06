@@ -1,0 +1,48 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.lonel_slime_chunk": {
+      "geometry": "Geometry.lonel_slime_chunk",
+      "materials": [ { "*": "Material.lonel_slime_chunk_blend" },
+      { "lonel_slime_chunk_z1_0": "Material.lonel_slime_chunk_z1_0" },
+      { "lonel_slime_chunk_z2_0": "Material.lonel_slime_chunk_z2_0" },
+      { "lonel_slime_chunk_f1_0": "Material.lonel_slime_chunk_f1_0" },
+      { "lonel_slime_chunk_f2_0": "Material.lonel_slime_chunk_f2_0" },
+
+      { "lonel_slime_chunk_0_z1": "Material.lonel_slime_chunk_0_z1" },
+      { "lonel_slime_chunk_0_z2": "Material.lonel_slime_chunk_0_z2" },
+      { "lonel_slime_chunk_0_f1": "Material.lonel_slime_chunk_0_f1" },
+      { "lonel_slime_chunk_0_f2": "Material.lonel_slime_chunk_0_f2" },
+
+      { "lonel_slime_chunk_z1_z1": "Material.lonel_slime_chunk_z1_z1" },
+      { "lonel_slime_chunk_z1_z2": "Material.lonel_slime_chunk_z1_z2" },
+      { "lonel_slime_chunk_z1_f1": "Material.lonel_slime_chunk_z1_f1" },
+      { "lonel_slime_chunk_z1_f2": "Material.lonel_slime_chunk_z1_f2" },
+
+      { "lonel_slime_chunk_z2_z1": "Material.lonel_slime_chunk_z2_z1" },
+      { "lonel_slime_chunk_z2_z2": "Material.lonel_slime_chunk_z2_z2" },
+      { "lonel_slime_chunk_z2_f1": "Material.lonel_slime_chunk_z2_f1" },
+      { "lonel_slime_chunk_z2_f2": "Material.lonel_slime_chunk_z2_f2" },
+
+      { "lonel_slime_chunk_f1_z1": "Material.lonel_slime_chunk_f1_z1" },
+      { "lonel_slime_chunk_f1_z2": "Material.lonel_slime_chunk_f1_z2" },
+      { "lonel_slime_chunk_f1_f1": "Material.lonel_slime_chunk_f1_f1" },
+      { "lonel_slime_chunk_f1_f2": "Material.lonel_slime_chunk_f1_f2" },
+
+      { "lonel_slime_chunk_f2_z1": "Material.lonel_slime_chunk_f2_z1" },
+      { "lonel_slime_chunk_f2_z2": "Material.lonel_slime_chunk_f2_z2" },
+      { "lonel_slime_chunk_f2_f1": "Material.lonel_slime_chunk_f2_f1" },
+      { "lonel_slime_chunk_f2_f2": "Material.lonel_slime_chunk_f2_f2" }
+      ],
+      "textures": ["Texture.lonel_slime_chunk" ],
+      "part_visibility": [{ "*": true }],
+      "ignore_lighting": true,
+      "is_hurt_color":{"r":"0.0","g":"0.0","b":"0.0","a":"0.0"},
+      "on_fire_color":{"r":"0.0","g":"0.0","b":"0.0","a":"0.0"},
+        "uv_anim": {
+          "offset": [ "math.floor(query.position(0)/16.0)" , "math.floor(query.position(2)/16.0)" ],
+          "scale": [ "7366.0", "9665.0" ]
+      }  
+    }
+  }
+}
