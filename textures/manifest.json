@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§a b站小羊lonel",
+        "name": "§blonel史莱姆区块显示v0.1",
+        "uuid": "101a0062-0065-0062-0075-000000000000",
+        "version": [1, 0, 1],
+        "min_engine_version": [1, 14, 0]
+    },
+    "modules": [
+        {
+            "description": "by:lonelyang",
+            "type": "resources",
+            "uuid": "101b0062-0065-0062-0075-000000000000",
+            "version": [1, 0, 1]
+        }
+    ]
+}
