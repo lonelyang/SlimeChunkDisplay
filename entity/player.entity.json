@@ -82,17 +82,15 @@
           "root",
           //////////
           "lonel_slime_chunk",
-         {"lonel_slime_chunk_me":"query.is_in_ui"}
+          {"lonel_slime_chunk_me":"query.is_in_ui"}
           //////////
         ]
       },
       "animations": {
-
         //////////
         "lonel_slime_chunk": "animation.lonel_slime_chunk",
         "lonel_slime_chunk_me": "controller.animation.lonel_slime_chunk_me",
         //////////
-
         "root": "controller.animation.player.root",
         "base_controller": "controller.animation.player.base",
         "hudplayer": "controller.animation.player.hudplayer",
@@ -149,37 +147,7 @@
       "render_controllers": [
       
         ////////////
-        { "controller.render.lonel_slime_chunk_0_0": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-
-        { "controller.render.lonel_slime_chunk_z1_0": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_z2_0": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_f1_0": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_f2_0": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-
-        { "controller.render.lonel_slime_chunk_0_z1": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_0_z2": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_0_f1": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_0_f2": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-
-        { "controller.render.lonel_slime_chunk_z1_z1": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_z1_z2": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_z1_f1": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_z1_f2": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-
-        { "controller.render.lonel_slime_chunk_z2_z1": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_z2_z2": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_z2_f1": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_z2_f2": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-
-        { "controller.render.lonel_slime_chunk_f1_z1": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_f1_z2": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_f1_f1": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_f1_f2": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-
-        { "controller.render.lonel_slime_chunk_f2_z1": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_f2_z2": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_f2_f1": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
-        { "controller.render.lonel_slime_chunk_f2_f2": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
+        { "controller.render.lonel_slime_chunk": "variable.lonel_slime_chunk_me&&!query.is_gliding&&!query.is_in_ui&&!variable.is_paperdoll&&query.is_alive&&!variable.is_first_person&&!variable.map_face_icon" },
         ////////////
         
         { "controller.render.player.first_person": "variable.is_first_person" },
