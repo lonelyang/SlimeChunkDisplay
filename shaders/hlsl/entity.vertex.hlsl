@@ -126,6 +126,7 @@ ROOT_SIGNATURE
 void main(in VS_Input VSInput, out PS_Input PSInput) {
 	float4 entitySpacePosition = float4(VSInput.position, 1);
 	float3 entitySpaceNormal = TransformRGBA8_SNORM(VSInput.normal);
+
 #ifdef USE_SKINNING
 	entitySpacePosition = mul(BONES[VSInput.boneId], entitySpacePosition);
 	entitySpaceNormal = mul(BONES[VSInput.boneId], entitySpaceNormal);
@@ -135,10 +136,8 @@ void main(in VS_Input VSInput, out PS_Input PSInput) {
 	int i = VSInput.instanceID;
 	PSInput.position = mul(WORLDVIEWPROJ_STEREO[i], entitySpacePosition);
 #else
-	PSInput.position = mul(WORLDVIEWPROJ, entitySpacePosition);
+    PSInput.position = mul(WORLDVIEWPROJ, entitySpacePosition);
 #endif
-
-
 
 #ifdef GEOMETRY_INSTANCEDSTEREO
 	PSInput.instanceID = VSInput.instanceID;
@@ -179,7 +178,6 @@ void main(in VS_Input VSInput, out PS_Input PSInput) {
 #ifdef USE_UV_ANIM
 	PSInput.uv.xy = UV_ANIM.xy + (PSInput.uv.xy * UV_ANIM.zw);
 #endif
-
 
 #ifdef LONEL_SLIME_CHUNK
 int lonel_slime_chunk_x = int(UV_ANIM.x);

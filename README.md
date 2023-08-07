@@ -14,7 +14,3 @@ Supports Windows and Android
 Render Dragon branch only supports Windows
 
 渲染龙分支仅支持Windows
-
-The Render Dragon branch supports versions 1.19.60 or later
-
-渲染龙分支支持1.19.60 或更高版本

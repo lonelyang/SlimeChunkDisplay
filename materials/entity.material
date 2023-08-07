@@ -1,12 +1,34 @@
 {
   "materials": {
     "version": "1.0.0",
+    
     "entity_slime_chunk_blend:entity_alphablend": {
       "+states": [
         "Blending"
       ],
       "+states": [ "DisableCulling" ],
-      "+defines": [ "USE_OVERLAY","LONEL_SLIME_CHUNK","USE_UV_ANIM" ]
+      "+defines": [ "USE_OVERLAY","LONEL_SLIME_CHUNK" ],
+      "vertexFields": [
+        { "field": "Position" },
+        { "field": "Color" },
+        { "field": "Normal" },
+        { "field": "UV0" }
+      ],
+      "variants": [
+        {
+          "skinning": {
+            "+defines": [ "USE_SKINNING" ],
+            "vertexFields": [
+              { "field": "Position" },
+              { "field": "BoneId0" },
+              { "field": "Color" },
+              { "field": "Normal" },
+              { "field": "UV0" }
+            ]
+          }
+        }
+      ],
+      "msaaSupport": "Both"
     },
     "entity_slime_chunk_z1_0:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z1_X" ]},
     "entity_slime_chunk_z2_0:entity_slime_chunk_blend": {"+defines": [ "LONEL_SLIME_CHUNK_Z2_X" ]},
