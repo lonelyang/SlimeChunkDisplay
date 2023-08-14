@@ -11,6 +11,6 @@ Supports Windows and Android
 
 支持Windows与安卓
 
-Render Dragon branch only supports Windows
+Render Dragon Version to see other branches
 
-渲染龙分支仅支持Windows
+渲染龙版本请查看其他分支
