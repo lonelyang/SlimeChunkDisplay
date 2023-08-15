@@ -22,3 +22,7 @@ render dragons manually add the Actor.material.bin file in the renderer/material
 Or Android can use [MaterialBinLoader](https://github.com/ddf8196/MaterialBinLoader) to make an APK that loads the Render Dragon shader
 
 或者安卓可使用 [MaterialBinLoader](https://github.com/ddf8196/MaterialBinLoader) 制作可加载渲染龙着色器的APK
+
+It can be used after adjusting to third person and turning on the paper doll display
+
+调整为第三人称并开启纸娃娃显示后即可使用
