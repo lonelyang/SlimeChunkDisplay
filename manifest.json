@@ -1,11 +1,11 @@
 {
     "format_version": 2,
     "header": {
-        "description": "made by lonelyang",
-        "name": "§aSlime Chunk Display",
+        "description": "made by lonelyang \nthird_person and paper_doll \n调整为第三人称并开启纸娃娃显示",
+        "name": "§aSlime Chunk Display Android",
         "uuid": "AD9879AE-93AC-F573-26C9-144995C3D186",
         "version": [1, 0, 1],
-        "min_engine_version": [1, 14, 0]
+        "min_engine_version": [1, 20, 20]
     },
     "modules": [
         {
