@@ -1,0 +1,5 @@
+*.json linguist-language=JSON
+*.material linguist-language=MATERIAL
+*fragment linguist-language=GLSL
+*.vertex linguist-language=GLSL
+*.hlsl linguist-language=HLSL
