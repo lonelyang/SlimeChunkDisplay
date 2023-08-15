@@ -23,3 +23,6 @@ Or Windows can use [BetterRenderDragon](https://github.com/ddf8196/BetterRenderD
 
 或者Windows可使用 [BetterRenderDragon](https://github.com/ddf8196/BetterRenderDragon) 加载渲染龙着色器
 
+It can be used after adjusting to third person and turning on the paper doll display
+
+调整为第三人称并开启纸娃娃显示后即可使用
