@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "header": {
-        "description": "made by lonelyang",
+        "description": "made by lonelyang \nthird_person and paper_doll \n调整为第三人称并开启纸娃娃显示",
         "name": "§aSlime Chunk Display",
         "uuid": "AD9879AE-93AC-F573-26C9-144995C3D186",
         "version": [1, 0, 1],
