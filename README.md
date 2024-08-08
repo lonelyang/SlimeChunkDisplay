@@ -33,7 +33,7 @@
 
 - The window can use [BetterRenderDragon](https://github.com/ddf8196/BetterRenderDragon) to load a resource pack with a render dragon shader
 
-- Android is available on [MaterialBinLoader](https://github.com/ddf8196/MaterialBinLoader) to download an APK that loads the render dragon shader
+- Android is available on [yss.minecraft.pe](https://yss.minecraft.pe/) to download an APK that loads the render dragon shader
 
 - It can be used after adjusting to third person and turning on the paper doll display
 
